@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Roboto';
+}
+
+.navbar{
+    background-color: #7030CC;
+    margin: 1px;
+    border: 10px solid #fff;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.nav-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.navtop-item{
+    display: flex;
+    align-items: center;
+}
+
+.navtop-item a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 20px;
+    font-size: 1.2em;
+}
+
+.navtop-item div{
+    background-color: #1BBCEF;
+    color: #fff;
+    padding: 15px 25px;
+    margin-left: 50px;
+}
+
+.nav-buttom{
+    padding: 10px 100px ;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-start;
+   color: #fff;
+}
+
+.left-nav h1{
+    font-size: 4em;
+    margin-top: 80px;
+}
+
+.left-nav p{
+    margin-top: 30px;
+    font-size: 1em;
+}
+
+.nav-img{
+    margin-top: -25px;
+    margin-bottom: 30px;
+    width: 700px;
+}
+
+/* section 1 */
+
+.section-1{
+    padding: 50px 100px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1-img{
+    width: 600px;
+    margin-left: 30px;
+}
+
+.section-1-rigth{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.section-1-rigth h1{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+
+.one-card{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    margin-left: -25px;
+}
+
+.one-card img{
+    width: 25px;
+}
+
+.one-card h3{
+    font-size: 1.3em;
+}
+
+/* section 2 */
+
+.section-2{
+    background-color: #fff;
+    padding: 20px 100px;
+}
+
+.section-2-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-section{
+    padding: 10px 90px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second-card{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px #1c1c1c71;
+}
+
+.card-icon{
+    margin: 25px 0px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.card-one{
+    background-color: #fdcfcf;
+}
+.card-1 {
+    width: 60px;
+    padding: 20px;
+}
+
+.card-two{
+    background-color: #ff735a30;
+}
+
+
+.card-three{
+    background-color: #E1EEEF;
+}
+
+.card-for{
+    background-color: #F2E7;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-info h1{
+    font-size: 1.5em;
+}
